@@ -20,8 +20,10 @@ Nessa teoria, conta-se pontos de complexidade de acordo com alguns elementos no 
 A ideia é que a carga intrínseca (soma dos pontos de complexidade) não passe de 7 pontos, uma vez que passado, o entendimento do código é muito afetado, sendo mais difícil refatorá-lo e exigindo muito mais custo e tempo para realizar manutenções.
 
 # Sobre o conjunto de técnicas de código
+```
 Devemos dar prioridade máxima ao funcionamento do código. Sendo assim, devemos executá-lo o mais rápido possível para minimizar o acúmulo de erros e termos uma melhor percepção do que está acontecendo de errado.
 A proteção das bordas é extremamente importante, principalmente as mais externas. Para isso, utilizamos validações e redobramos nossa atenção quando se trata das bordas mais externas.
 É importante que o seu código seja entendível por outras pessoas, uma vez que todos devem estar na mesma página para mais agilidade no desenvolvimento, e melhor compreeensão.
 Nossos controllers devem ser 100% coesos.
 Uma boa arquitetura facilita o entendimento.
+```
