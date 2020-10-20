@@ -34,3 +34,15 @@ A proteção das bordas é extremamente importante, principalmente as mais exter
 Nossos controllers devem ser 100% coesos.<br/>
 Uma boa arquitetura facilita o entendimento.<br/>
 </p>
+
+# Sobre cada funcionalidade implementada e entendimentos em geral
+
+## Validadores personalizados
+<p align="justify">
+Com o Spring, podemos criar validadores personalizados para determinado input onde os validadores pré-definidos não satisfazem nossa necessidade de negócio. Para isso, criamos uma anotação e uma classe, que implementa a interface ConstraintValidator, com nossa regra dentro.
+</p>
+
+## Entidadeds anêmicas
+<p align="justify">
+Podemos ter uma ideia de que podemos melhorar nosso código quando percebemos que temos muitas entidades anêmicas, que são entidades que possuem somente um conjunto de atributos, deixando toda a regra de negócio na responsabilidade de outra camada. Portanto, devemos evitar ter entidades anêmicas, uma vez que quando adotamos o modelo anêmico, estamos deixando de lado todos os benefícios da orientação a objetos.
+</p>
